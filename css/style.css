@@ -1,0 +1,75 @@
+/*
+Light Purple = #AC6EF3
+Medium Purple = #9648EE
+Dark purple = #7F23E7
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #9648EE;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #e9e9e9;
+    padding: 30px;
+}
+
+.header{
+    height: 95vh;
+    background-image: linear-gradient(to left bottom,
+    rgba(199, 156, 248, 0.8),
+    rgba(233, 254, 152, 0.8)),
+    url("../img/background.jpg");
+    background-size: cover;
+    background-position: top;
+    position: relative;
+
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 95%, 0 100%);
+}
+
+.logo-header-box{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.logo{
+    height: 140px;
+}
+
+.text-box-header{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+
+.heading-primary{
+    color: #7F23E7;
+    text-transform: uppercase;
+    transform: translate(-50%, -50%);
+
+}
+
+.heading-primary-main{
+    display: block;
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 20px;
+}
+
+.heading-primary-sub{
+    display: block;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 15px;
+}
