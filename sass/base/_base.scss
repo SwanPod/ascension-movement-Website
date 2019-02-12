@@ -1,0 +1,24 @@
+* {
+
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  background-image: linear-gradient(to bottom left, $color-primary,$color-vdark);
+
+  animation-name: fadeIn;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+}
+
+body{
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: $color-offWhite;
+  padding: 30px;
+}
