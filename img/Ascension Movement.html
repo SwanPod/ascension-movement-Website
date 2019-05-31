@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://127.0.0.1:8080/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ascension Movement</title>
+
+    
+    
+<link href="./Ascension Movement_files/css" rel="stylesheet"><link rel="stylesheet" href="./Ascension Movement_files/style.css"></head>
+<body>
+
+    <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+
+        <label for="navi-toggle" class="navigation__button">
+        <span class="navigation_icon">&nbsp;</span>
+        </label>
+
+
+        <div class="navigation__background">&nbsp;</div>
+
+        <nav class="navigation__nav">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="http://127.0.0.1:8080/#" class="navigation__link">About</a></li>
+                <li class="navigation__item"><a href="http://127.0.0.1:8080/#" class="navigation__link">Artists</a></li>
+                <li class="navigation__item"><a href="http://127.0.0.1:8080/#" class="navigation__link">Discography</a></li>
+                <li class="navigation__item"><a href="http://127.0.0.1:8080/#" class="navigation__link">News</a></li>
+                <li class="navigation__item"><a href="http://127.0.0.1:8080/#" class="navigation__link">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <header class="header">
+        <div class="logo-header-box ">
+            <img src="./Ascension Movement_files/test-logo.png" alt="logo" class="logo">
+        </div>
+
+        <div class="text-box-header">
+            <h1 class="heading-primary">
+                <span class="heading-primary-main">Ascension Movement</span>
+                <span class="heading-primary-sub">The Newest Music Label</span>
+            </h1>
+        </div>
+    </header>
+    <div class="vision">
+        <div class="vision-title">
+            <h1 class="vision-title-text">Vision</h1>
+        </div>
+        <div class="vision-vis">
+            <p class="vision-vis-text">We are a platform that strives to bring new light to small and unknown artists,
+                allowing them to bring themselves forward in their musical journey, helping them if needed, and ultimately,
+                share the music they made with the world.</p>
+        </div>
+    </div>
+    <div class="featured-disc">
+        <h1 class="featured-disc-head">Featured Discography</h1>
+
+        <section class="albums">
+            <div class="album">
+                <a href="http://127.0.0.1:8080/" class="col-1-of-3">
+                    <img class="album_cover" src="./Ascension Movement_files/test-album.png">
+                </a>&lt;
+                </div>
+            <div class="album">
+                <a href="http://127.0.0.1:8080/" class="col-1-of-3">
+                    <img class="album_cover" src="./Ascension Movement_files/test-album.png">
+                </a>&lt;
+            </div>
+            <div class="album">
+                <a href="http://127.0.0.1:8080/" class="col-1-of-3">
+                    <img class="album_cover" src="./Ascension Movement_files/test-album.png">
+                </a>&lt;
+            </div>
+        </section>
+    </div>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function() {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					head.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					head.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function(msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			console.log('Live reload enabled.');
+		})();
+	}
+	// ]]>
+</script>
+
+</body></html>
