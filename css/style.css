@@ -53,7 +53,7 @@ body {
 
 .header {
   height: 95vh;
-  background-image: linear-gradient(to left bottom, rgba(172, 110, 243, 0.8), rgba(233, 254, 152, 0.8)), url("../img/background.jpg");
+  background-image: linear-gradient(to left bottom, rgba(172, 110, 243, 0.8), rgba(233, 254, 152, 0.8)), url("../../img/background.jpg");
   background-size: cover;
   background-position: top;
   position: relative;
@@ -88,6 +88,77 @@ body {
   animation-name: moveInRight;
   animation-duration: 2.1s;
   animation-timing-function: ease-in-out; }
+
+.vision {
+  margin-top: 7rem;
+  width: 100%;
+  height: 36rem;
+  background-image: radial-gradient(rgba(233, 233, 233, 0.7), rgba(233, 254, 152, 0.8)), url("../../img/vision-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0 10%, 50% 0, 100% 10%, 100% 100%, 50% 90%, 0 100%); }
+
+.vision-title {
+  height: 10rem;
+  width: 100%;
+  margin-bottom: 8rem;
+  color: #9648EE; }
+
+.vision-title-text {
+  text-align: center;
+  font-size: 10rem; }
+
+.vision-vis {
+  height: 4rem; }
+
+.vision-vis-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #AC6EF3; }
+
+.featured-disc {
+  height: 58rem;
+  margin-top: 7rem;
+  background-image: radial-gradient(rgba(233, 233, 233, 0.7), rgba(233, 254, 152, 0.8)), url("../../img/featured-disc-back.jpg");
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0 10%, 50% 0, 100% 10%, 100% 100%, 50% 90%, 0 100%); }
+
+.featured-disc-head {
+  transform: translateY(5rem);
+  text-align: center;
+  font-size: 10rem;
+  color: #7F23E7; }
+
+.album {
+  position: relative;
+  display: grid;
+  transform: translateY(5rem);
+  margin-top: 4rem;
+  display: block;
+  width: 100%;
+  height: 20rem;
+  text-align: center;
+  display: grid;
+  grid-column-gap: 2rem;
+  grid-template-columns: 27rem 27rem 27rem;
+  justify-content: center;
+  align-content: center; }
+
+.album-cover {
+  max-height: 25rem; }
+
+.album-div {
+  width: calc((100% - 2 * 6rem) / 3);
+  float: left;
+  width: 25rem;
+  height: 25rem;
+  transition: all .25s; }
+  .album-div:hover {
+    outline: 1.5rem solid #9648EE;
+    transform: scale(1.05) translateY(-0.5rem);
+    box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
+    z-index: 20; }
 
 .navigation__checkbox {
   display: none; }
@@ -157,3 +228,38 @@ body {
 .navigation__link:hover, active {
   background-position: 65%;
   color: #9648EE; }
+
+.navigation_icon {
+  position: relative;
+  margin-top: 3.5rem; }
+  .navigation_icon, .navigation_icon::before, .navigation_icon::after {
+    width: 3rem;
+    height: 2px;
+    background-color: #E9FE98;
+    display: inline-block; }
+  .navigation_icon::before, .navigation_icon::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    transition: all .2s; }
+  .navigation_icon::before {
+    top: -.8rem; }
+  .navigation_icon::after {
+    top: .8rem; }
+
+.navigation__button:hover .navigation_icon::before {
+  top: -1rem; }
+
+.navigation__button:hover .navigation_icon::after {
+  top: 1rem; }
+
+.navigation__checkbox:checked + .navigation__button .navigation_icon {
+  background-color: transparent; }
+
+.navigation__checkbox:checked + .navigation__button .navigation_icon::after {
+  transform: rotate(45deg);
+  top: 0; }
+
+.navigation__checkbox:checked + .navigation__button .navigation_icon::before {
+  transform: rotate(-45deg);
+  top: 0; }

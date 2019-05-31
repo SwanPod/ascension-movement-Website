@@ -83,6 +83,63 @@
     //background-color: $yellow-vlight;
   }
 
+.navigation_icon {
+  position: relative;
+  margin-top: 3.5rem;
+
+
+  &,
+  &::before,
+  &::after {
+    width: 3rem;
+    height: 2px;
+    background-color: $yellow-vlight;
+    display: inline-block;
+  }
+
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    transition: all .2s;
+  }
+
+  &::before {
+    top: -.8rem;
+  }
+
+  &::after {
+    top: .8rem;
+  }
+
+}
+
+  .navigation__button:hover .navigation_icon::before{
+    top: -1rem;
+  }
+
+  .navigation__button:hover .navigation_icon::after{
+    top: 1rem;
+  }
+
+  .navigation__checkbox:checked + .navigation__button .navigation_icon{
+    background-color: transparent;
+  }
+
+.navigation__checkbox:checked + .navigation__button .navigation_icon::after{
+ transform: rotate(45deg);
+  top:0;
+
+}
+
+.navigation__checkbox:checked + .navigation__button .navigation_icon::before{
+  transform: rotate(-45deg);
+  top:0;
+}
+
+
 
 
 
