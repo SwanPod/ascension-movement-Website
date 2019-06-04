@@ -117,7 +117,7 @@ body {
   color: #AC6EF3; }
 
 .featured-disc {
-  height: 58rem;
+  padding-bottom: 17rem;
   margin-top: 7rem;
   background-image: radial-gradient(rgba(233, 233, 233, 0.7), rgba(233, 254, 152, 0.8)), url("../../img/featured-disc-back.jpg");
   background-size: cover;
