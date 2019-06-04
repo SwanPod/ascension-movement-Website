@@ -214,16 +214,19 @@ body {
 .navigation__item {
   margin: 1rem; }
 
+.navigation__link {
+  background-image: linear-gradient(120deg, transparent, transparent 50%, #E9FE98 50%);
+  background-size: 1000%;
+  transition: all .7s;
+  color: #E9FE98; }
+
 .navigation__link:link, visited {
   font-size: 3rem;
   font-weight: 300;
   padding: 1rem 2rem;
   text-decoration: none;
   text-transform: uppercase;
-  color: #E9FE98;
-  background-image: linear-gradient(120deg, transparent, transparent 50%, #E9FE98 50%);
-  background-size: 1000%;
-  transition: all .7s; }
+  color: #E9FE98; }
 
 .navigation__link:hover, active {
   background-position: 65%;
