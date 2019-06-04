@@ -73,7 +73,7 @@ body {
 
 .heading-primary-main {
   display: block;
-  font-size: 70px;
+  font-size: 4.15vw;
   font-weight: 700;
   letter-spacing: 20px;
   animation-name: moveInLeft;
@@ -82,7 +82,7 @@ body {
 
 .heading-primary-sub {
   display: block;
-  font-size: 30px;
+  font-size: 2vw;
   font-weight: 400;
   letter-spacing: 15px;
   animation-name: moveInRight;
@@ -92,28 +92,26 @@ body {
 .vision {
   margin-top: 7rem;
   width: 100%;
-  height: 36rem;
+  padding-bottom: 15rem;
   background-image: radial-gradient(rgba(233, 233, 233, 0.7), rgba(233, 254, 152, 0.8)), url("../../img/vision-bg.jpg");
   background-size: cover;
   background-position: center;
   clip-path: polygon(0 10%, 50% 0, 100% 10%, 100% 100%, 50% 90%, 0 100%); }
 
 .vision-title {
-  height: 10rem;
   width: 100%;
-  margin-bottom: 8rem;
   color: #9648EE; }
 
 .vision-title-text {
   text-align: center;
-  font-size: 10rem; }
+  font-size: 9.3vw; }
 
 .vision-vis {
   height: 4rem; }
 
 .vision-vis-text {
   text-align: center;
-  font-size: 2rem;
+  font-size: 2vw;
   color: #AC6EF3; }
 
 .featured-disc {
@@ -127,7 +125,7 @@ body {
 .featured-disc-head {
   transform: translateY(5rem);
   text-align: center;
-  font-size: 10rem;
+  font-size: 9.3vw;
   color: #7F23E7; }
 
 .album {
