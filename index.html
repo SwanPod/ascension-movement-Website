@@ -4,7 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ascension Movement</title>
-
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jQuery.succinct.min.js"></script>
+    <script src="js/jQuery.succinct.js"></script>
+    <script>
+        $(function(){
+            $('.truncate').succinct({
+                size: 350
+            });
+        });
+    </script>
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -74,21 +83,27 @@
             </div>
         </section>
     </div>
-<!--    <div class="news">-->
-<!--        <div class="news-title">-->
-<!--            <h1 class="new-title-text">News</h1>-->
-<!--        </div>-->
-<!--        <div class="news-articles">-->
-<!--            <div class="news-articles-a1">-->
-
-<!--            </div>-->
-<!--            <div class="news-articles-a2">-->
-
-<!--            </div>-->
-<!--            <div class="news-articles-a3">-->
-
-<!--            </div>-->
-<!--        </div>-->
+    <div class="news">
+        <div class="news-title">
+            <h1 class="new-title-text">News</h1>
+        </div>
+        <div class="news-articles">
+            <div class="news-articles-a js">
+                <h2 class="news-articles-a-h"> A1</h2>
+                <p class="news-articles-a-p truncate">Article 1...fndsajkf hkdsjhfjk dashfjkh sdajkfhds hfjkhjkfhd
+                fsadjf dahf kjdhsj kfh jd khfj kdhskj fhjk dshfk jhsad jkfhj ksadh fjkdha fjk h dsj akf
+                fdn jfh ds jkhf jkdsh fjkhds jkf hjkd as h fjkdshjk fhd jkh f j d hajk  f h ajkhfjk a h fjkah dj kfh
+                fnd j fhdjk hfdhj fhdsjk hfjk dsafl hdjkfh lahj kl ahfj kahdl fhd jaklf hdjka hfjkdhfjkhuiehducnjknc</p>
+            </div>
+            <div class="news-articles-a">
+                <h2 class="news-articles-a-h"> A2</h2>
+                <p class="news-articles-a-p">Article 2</p>
+            </div>
+            <div class="news-articles-a">
+                <h2 class="news-articles-a-h"> A3</h2>
+                <p class="news-articles-a-p">Article 3</p>
+            </div>
+        </div>
     </div>
 </body>
 </html>
