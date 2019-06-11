@@ -178,11 +178,11 @@
 .news-articles{
   grid-column-gap: 2rem;
   grid-template-columns: 27rem 27rem 27rem;
-  grid-template-rows: 25%;
+  grid-template-rows: 25vh;
   display: grid;
   position: relative;
   width: 100%;
-  height: 25vh;
+  height: 17vh;
   color: $color-vdark;
   justify-content: center;
   align-content: center;
@@ -195,8 +195,20 @@
   width: 100%;
   height: 2vw;
   text-align: center;
+}
+.news-articles-linkBlock{
+  text-decoration: none;
+  transition: all .4s;
+  color:$color-primary;
+  width: 100%;
+  height: 100%;
 
 
+  &:hover{
+    color: $color-light;
+    font-size: 10vw;
+    text-shadow: 0rem .2rem .25rem rgba($color-dark, .2);
+  }
 }
 
 .news-articles-a-h{
@@ -205,7 +217,6 @@
 
 .news-articles-a-p {
   font-size: 1.4vw;
-  //height: 5vh;
 
 
   margin: 0 0 1em 0;

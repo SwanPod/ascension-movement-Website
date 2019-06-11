@@ -176,11 +176,11 @@ body {
 .news-articles {
   grid-column-gap: 2rem;
   grid-template-columns: 27rem 27rem 27rem;
-  grid-template-rows: 25%;
+  grid-template-rows: 25vh;
   display: grid;
   position: relative;
   width: 100%;
-  height: 25vh;
+  height: 17vh;
   color: #6B0ADA;
   justify-content: center;
   align-content: center;
@@ -192,6 +192,17 @@ body {
   width: 100%;
   height: 2vw;
   text-align: center; }
+
+.news-articles-linkBlock {
+  text-decoration: none;
+  transition: all .4s;
+  color: #9648EE;
+  width: 100%;
+  height: 100%; }
+  .news-articles-linkBlock:hover {
+    color: #AC6EF3;
+    font-size: 10vw;
+    text-shadow: 0rem 0.2rem 0.25rem rgba(127, 35, 231, 0.2); }
 
 .news-articles-a-h {
   font-size: 3.5vw; }
