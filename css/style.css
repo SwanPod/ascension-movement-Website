@@ -157,6 +157,7 @@ body {
     z-index: 20; }
 
 .news {
+  margin-top: 7rem;
   grid-column-gap: 2rem;
   grid-template-columns: 27rem 27rem 27rem;
   grid-template-rows: 25% 100px auto;
@@ -333,7 +334,7 @@ body {
   height: 7vh;
   padding-bottom: 7vh;
   background-color: #AC6EF3;
-  margin-top: 5vh;
+  margin-top: 7rem;
   text-align: center;
   align-items: center;
   justify-content: center; }
@@ -346,7 +347,7 @@ body {
   vertical-align: center;
   float: left;
   transition: all .4s;
-  margin-right: 4vw;
-  margin-left: 4vw; }
+  margin-right: 3.5vw;
+  margin-left: 3.5vw; }
   .footer-icon:hover {
     transform: scale(1.25); }
