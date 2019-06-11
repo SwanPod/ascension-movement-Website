@@ -329,9 +329,9 @@ body {
   left: 0;
   bottom: 0;
   width: 100%;
-  padding-top: 10vh;
-  height: 10vh;
-  padding-bottom: 10vh;
+  padding-top: 7vh;
+  height: 7vh;
+  padding-bottom: 7vh;
   background-color: #AC6EF3;
   margin-top: 5vh;
   text-align: center;
@@ -344,4 +344,9 @@ body {
   text-decoration: none;
   color: #E9FE98;
   vertical-align: center;
-  float: left; }
+  float: left;
+  transition: all .4s;
+  margin-right: 4vw;
+  margin-left: 4vw; }
+  .footer-icon:hover {
+    transform: scale(1.25); }
