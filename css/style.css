@@ -311,3 +311,26 @@ body {
 .navigation__checkbox:checked + .navigation__button .navigation_icon::before {
   transform: rotate(-45deg);
   top: 0; }
+
+.footer {
+  position: relative;
+  display: flex;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 10vh;
+  height: 10vh;
+  padding-bottom: 10vh;
+  background-color: #AC6EF3;
+  margin-top: 5vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center; }
+
+.footer-icon {
+  position: relative;
+  font-size: 5vw;
+  text-decoration: none;
+  color: #E9FE98;
+  vertical-align: center;
+  float: left; }
