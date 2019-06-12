@@ -176,7 +176,7 @@ body {
 
 .news-articles {
   grid-column-gap: 2rem;
-  grid-template-columns: 27rem 27rem 27rem;
+  grid-template-columns: 27vw 27vw 27vw;
   grid-template-rows: 25vh;
   display: grid;
   position: relative;
